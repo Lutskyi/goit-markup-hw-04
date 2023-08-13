@@ -125,7 +125,6 @@ ul {
 .part {
   background-color: #2e2f42;
   background-image: linear-gradient(
-      to top,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -298,6 +297,30 @@ ul {
 
 .person-social-network-icon {
   fill: var(--Light);
+}
+
+.customers {
+  padding: 120px 0;
+}
+
+.customers-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+.customer-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customer-list-logo {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 .end {
